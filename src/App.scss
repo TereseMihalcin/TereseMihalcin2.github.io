@@ -126,8 +126,9 @@ header h1 {
 	width: 100%;
 }
 
+// this is the box around the project photos
 .foto div {
-	background: #923e3e;
+	background: #bf8e8e;
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -143,8 +144,9 @@ header h1 {
 	position: relative;
 }
 
+// more of the photo css 
 .foto div:after {
-	color: #333;
+	color: rgb(195, 188, 188);
 	font-size: 25px;
 	content: attr(title);
 	position: relative;

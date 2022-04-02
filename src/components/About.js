@@ -30,18 +30,6 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
                 </span>
               </div>
             </div>
@@ -52,7 +40,7 @@ class About extends Component {
                   <div className="card-header">
                     <span
                       className="iconify"
-                      data-icon="emojione:red-circle"
+                      data-icon="twemoji:yellow-circle"
                       data-inline="false"
                     ></span>{" "}
                     &nbsp;{" "}
@@ -64,7 +52,7 @@ class About extends Component {
                     &nbsp;{" "}
                     <span
                       className="iconify"
-                      data-icon="twemoji:green-circle"
+                      data-icon="twemoji:yellow-circle"
                       data-inline="false"
                     ></span>
                   </div>

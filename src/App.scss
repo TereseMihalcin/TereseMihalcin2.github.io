@@ -153,6 +153,7 @@ header h1 {
 	top: 15px;
 }
 
+// when you hover over each project
 .foto div:hover {
 	-webkit-transform: scale(1.01);
 	-moz-transform: scale(1.01);
@@ -174,7 +175,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 400px;
 }
 
 .polaroid span {

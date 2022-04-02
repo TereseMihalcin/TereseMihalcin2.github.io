@@ -173,16 +173,18 @@ header h1 {
 	text-align: center;
 }
 
+// polaroid
 .polaroid img {
 	display: block;
 	max-width: 400px;
 }
 
+// polaroid padding and such 
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
 	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	padding: 15px 15px 15px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -199,6 +201,7 @@ header h1 {
 	color: black;
 }
 
+// this is the Hi in the bio
 .wave {
 	font-size: 160%;
 }
@@ -207,9 +210,10 @@ header h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+// idk
 #preview {
 	width: 500px;
-	background-color: #ebeaf5;
+	background-color: #dbd9e8;
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -231,17 +235,19 @@ header h1 {
 	text-align: center;
 }
 
+// in experience, where it says Angular 8/9/10
 .main-badge {
 	font-size: 13px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #AE944F !important;
-	color: white;
+	color: rgb(255, 255, 255);
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+// prob the entire block
 .experience-badge {
 	font-size: 11px !important;
 	text-align: left !important;
@@ -253,10 +259,12 @@ header h1 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+// the date for the elements
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
 }
+
 
 @media only screen and (max-width: 1170px) {
 	.experience-icon {
@@ -292,7 +300,7 @@ header h1 {
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-	color: #313131;
+	color: #dc1e1e;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: normal;

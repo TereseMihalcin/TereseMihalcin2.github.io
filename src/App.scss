@@ -47,11 +47,13 @@ header {
 	padding-bottom: 0;
 }
 
+// take this shit out too
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
 }
 
+// definitely the date on each project, might take it out honestly
 .project-date {
 	font-size: 16px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,6 +74,7 @@ header {
 	border-radius: 8px;
 }
 
+// take this shit out god
 .language {
 	font-size: 25px;
 	background-color: #e9d5a1;
@@ -117,10 +120,12 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	padding-bottom: 30px;
 	color: black;
 	text-align: center;
 }
 
+// the photos in the projects 
 .foto img {
 	display: block;
 	width: 100%;
@@ -389,7 +394,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #1f1f1f;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;

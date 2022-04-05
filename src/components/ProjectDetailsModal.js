@@ -87,3 +87,4 @@ class ProjectDetailsModal extends Component {
 }
 
 export default ProjectDetailsModal;
+// NOTE: the <i> tag is used with for font-awesome icons - Terese

@@ -12,11 +12,11 @@
     "projects": [
       {
         "title": "Athletics Sceduling Application",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "startDate": "2021",
+        "description": "One of the most comprehensive software engineering project I worked on. I was one of four group members. This application supported two platforms, Web and IOS, these images are screenshots from the view I made for the web version. I worked on the frontend development and design of both platforms.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/animal-shelter/webApp1.png",
+          "images/portfolio/animal-shelter/webApp2.png"
         ],
         "url": "https://github.com/TereseMihalcin",
         "technologies": [

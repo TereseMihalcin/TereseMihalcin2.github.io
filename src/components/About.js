@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -11,6 +12,8 @@ class About extends Component {
       var about = this.props.resumeBasicInfo.description;
     }
 
+  
+
     return (
       <section id="about">
         <div className="col-md-12">
@@ -20,13 +23,18 @@ class About extends Component {
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
+                
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="450px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                </span>
+                <i 
+                className="fas fa-file-download fa-4x" 
+                style={{ margin: "10px" }}    
+                ></i>          
+               </span>
               </div>
             </div>
 
@@ -36,21 +44,10 @@ class About extends Component {
                   <div className="card-header">
                     <span
                       className="iconify"
-                      data-icon="twemoji:yellow-circle"
+                      data-icon="pixelarticons:human-handsup" data-width="50" data-height="50"
                       data-inline="false"
                     ></span>{" "}
                     &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>
                   </div>
                   <div
                     className="card-body font-trebuchet text-justify ml-3 mr-3"

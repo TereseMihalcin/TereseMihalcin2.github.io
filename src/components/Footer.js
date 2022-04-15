@@ -3,6 +3,21 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
+      var contactInfo = this.props.sharedBasicInfo.contact.map(function (contacts) {
+       return (
+        <span key={contacts}>
+           <p className="m-4">
+             {contacts.phone}
+           </p>
+           <p className="m-4">
+             {contacts.email}
+           </p>
+
+        </span>
+
+      );
+       });
+
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
           <span key={network.name} className="m-4">
@@ -12,12 +27,14 @@ class Footer extends Component {
           </span>
         );
       });
+      
     }
 
     return (
       <footer>
         <div className="col-md-12">
           <div className="social-links">{networks}</div>
+          <div className="contact-info">{contactInfo}</div>
 
           <div className="copyright py-4 text-center">
             <div className="container">

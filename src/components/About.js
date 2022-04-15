@@ -5,6 +5,7 @@ class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var url = this.props.sharedBasicInfo.url;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -26,14 +27,23 @@ class About extends Component {
                 
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="450px"
+                    height="400px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                <i 
-                className="fas fa-file-download fa-4x" 
-                style={{ margin: "10px" }}    
-                ></i>          
+                  <h2> 
+                    {"View My Resume"}
+                  </h2>
+                <a
+                  href={url}
+                  download
+                > 
+                  <i 
+                    className="fas fa-file-download fa-4x" 
+                    style={{ margin: "10px" }}    
+                  ></i> 
+                </a>  
+                        
                </span>
               </div>
             </div>

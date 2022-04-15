@@ -125,6 +125,11 @@ header h1 {
 	text-align: center;
 }
 
+#about h2 {
+	font: 18px/24px 'opensans-bold', sans-serif;
+	margin-top: 5%;
+}
+
 // the photos in the projects 
 .foto img {
 	display: block;
@@ -240,35 +245,6 @@ header h1 {
 	text-align: center;
 }
 
-// in experience, where it says Angular 8/9/10
-.main-badge {
-	font-size: 13px !important;
-	text-align: left !important;
-	padding: 5px 8px 5px 8px !important;
-	vertical-align: baseline;
-	background-color: #AE944F !important;
-	color: rgb(255, 255, 255);
-	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-// prob the entire block
-.experience-badge {
-	font-size: 11px !important;
-	text-align: left !important;
-	padding: 5px 8px 5px 8px !important;
-	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
-	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-// the date for the elements
-.vertical-timeline-element-date {
-	padding: 0 !important;
-	margin: 0 !important;
-}
 
 
 @media only screen and (max-width: 1170px) {
@@ -442,4 +418,9 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+.contact-info {
+	margin-top: 10px;
+	font-size: 15px;
 }
